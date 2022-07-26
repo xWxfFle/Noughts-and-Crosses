@@ -60,6 +60,7 @@ body {
     height: 300px;
   }
   #welcome__page {
+    display: block;
     width: 300px;
     padding-top: 7%;
   }
@@ -137,13 +138,10 @@ p {
   display: none;
 }
 
-#welcome__page {
-  display: block;
+#git {
+  margin-top: 20%;
 }
 
-#authors {
-  margin-top: 10%;
-}
 @media (max-width: 550px) {
   html {
     font-weight: 900;
